@@ -3,7 +3,10 @@
 This project aims to update the geolocation information of photos using Google Timeline data. It searches for photos without GPS data and then updates their geolocation information based on the location data obtained from the Google Timeline.
 
 ## Usage
-Change `Program.cs`:
+
+First, download your Google Timeline data. Check [here](https://www.howtogeek.com/725241/how-to-download-your-google-maps-data/) how to download it. Make sure to export you Timeline data in JSON format.
+
+Next change `Program.cs`:
 
 1. Set the `localTimeOffset` variable to your local time offset from UTC.
 2. Set the `photoTimeOffset` variable to the time offset of your digital camera.
